@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="setup()">
+    <h1 class="announce">The Game of Dots</h1>
+    <section class="sup-container">
+        <div id="turn" class="msg">
+            <h2>Points</h2>
+            <div class="cover"><div id="pR"></div><p id="rPoints">0</p></div>
+            <div class="cover"><div id="pG"></div><p id="gPoints">0</p></div>
+        </div>
+        <section class="container"  id="wrap"></section>
+        <div class="msg">
+            <h2 id="results">Turn</h2>
+            <div id="current"></div>
+        </div>
+    </section>    
+</body>
+<script src="brain.js"></script>
+</html>
